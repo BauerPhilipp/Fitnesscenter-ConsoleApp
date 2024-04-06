@@ -13,11 +13,11 @@
   "project": {
     "version": "1.0.0",
     "restore": {
-      "projectUniqueName": "C:\\Users\\pb\\source\\repos\\Hausübungen\\FitnesscenterConsoleApp\\Tag2 Fitnesscenter\\Tag2 Fitnesscenter.csproj",
+      "projectUniqueName": "C:\\Program Files (x86)\\PB Programme\\Projekte\\C# Projekte\\FitnesscenterConsoleApp\\Tag2 Fitnesscenter\\Tag2 Fitnesscenter.csproj",
       "projectName": "Tag2 Fitnesscenter",
-      "projectPath": "C:\\Users\\pb\\source\\repos\\Hausübungen\\FitnesscenterConsoleApp\\Tag2 Fitnesscenter\\Tag2 Fitnesscenter.csproj",
+      "projectPath": "C:\\Program Files (x86)\\PB Programme\\Projekte\\C# Projekte\\FitnesscenterConsoleApp\\Tag2 Fitnesscenter\\Tag2 Fitnesscenter.csproj",
       "packagesPath": "C:\\Users\\pb\\.nuget\\packages\\",
-      "outputPath": "C:\\Users\\pb\\source\\repos\\Hausübungen\\FitnesscenterConsoleApp\\Tag2 Fitnesscenter\\obj\\",
+      "outputPath": "C:\\Program Files (x86)\\PB Programme\\Projekte\\C# Projekte\\FitnesscenterConsoleApp\\Tag2 Fitnesscenter\\obj\\",
       "projectStyle": "PackageReference",
       "configFilePaths": [
         "C:\\Users\\pb\\AppData\\Roaming\\NuGet\\NuGet.Config",

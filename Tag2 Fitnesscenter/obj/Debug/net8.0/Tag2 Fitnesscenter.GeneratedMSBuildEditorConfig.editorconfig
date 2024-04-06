@@ -8,6 +8,6 @@ build_property.PlatformNeutralAssembly =
 build_property.EnforceExtendedAnalyzerRules = 
 build_property._SupportedPlatformList = Linux,macOS,Windows
 build_property.RootNamespace = Tag2_Fitnesscenter
-build_property.ProjectDir = C:\Users\pb\source\repos\Hausübungen\FitnesscenterConsoleApp\Tag2 Fitnesscenter\
+build_property.ProjectDir = C:\Program Files (x86)\PB Programme\Projekte\C# Projekte\FitnesscenterConsoleApp\Tag2 Fitnesscenter\
 build_property.EnableComHosting = 
 build_property.EnableGeneratedComInterfaceComImportInterop = 

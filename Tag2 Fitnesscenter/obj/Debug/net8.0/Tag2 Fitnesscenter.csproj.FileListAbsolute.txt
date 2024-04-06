@@ -12,3 +12,18 @@ C:\Users\pb\source\repos\Hausübungen\Tag2 Fitnesscenter\obj\Debug\net8.0\refint
 C:\Users\pb\source\repos\Hausübungen\Tag2 Fitnesscenter\obj\Debug\net8.0\Tag2 Fitnesscenter.pdb
 C:\Users\pb\source\repos\Hausübungen\Tag2 Fitnesscenter\obj\Debug\net8.0\Tag2 Fitnesscenter.genruntimeconfig.cache
 C:\Users\pb\source\repos\Hausübungen\Tag2 Fitnesscenter\obj\Debug\net8.0\ref\Tag2 Fitnesscenter.dll
+C:\Program Files (x86)\PB Programme\Projekte\C# Projekte\FitnesscenterConsoleApp\Tag2 Fitnesscenter\bin\Debug\net8.0\Tag2 Fitnesscenter.exe
+C:\Program Files (x86)\PB Programme\Projekte\C# Projekte\FitnesscenterConsoleApp\Tag2 Fitnesscenter\bin\Debug\net8.0\Tag2 Fitnesscenter.deps.json
+C:\Program Files (x86)\PB Programme\Projekte\C# Projekte\FitnesscenterConsoleApp\Tag2 Fitnesscenter\bin\Debug\net8.0\Tag2 Fitnesscenter.runtimeconfig.json
+C:\Program Files (x86)\PB Programme\Projekte\C# Projekte\FitnesscenterConsoleApp\Tag2 Fitnesscenter\bin\Debug\net8.0\Tag2 Fitnesscenter.dll
+C:\Program Files (x86)\PB Programme\Projekte\C# Projekte\FitnesscenterConsoleApp\Tag2 Fitnesscenter\bin\Debug\net8.0\Tag2 Fitnesscenter.pdb
+C:\Program Files (x86)\PB Programme\Projekte\C# Projekte\FitnesscenterConsoleApp\Tag2 Fitnesscenter\obj\Debug\net8.0\Tag2 Fitnesscenter.GeneratedMSBuildEditorConfig.editorconfig
+C:\Program Files (x86)\PB Programme\Projekte\C# Projekte\FitnesscenterConsoleApp\Tag2 Fitnesscenter\obj\Debug\net8.0\Tag2 Fitnesscenter.AssemblyInfoInputs.cache
+C:\Program Files (x86)\PB Programme\Projekte\C# Projekte\FitnesscenterConsoleApp\Tag2 Fitnesscenter\obj\Debug\net8.0\Tag2 Fitnesscenter.AssemblyInfo.cs
+C:\Program Files (x86)\PB Programme\Projekte\C# Projekte\FitnesscenterConsoleApp\Tag2 Fitnesscenter\obj\Debug\net8.0\Tag2 Fitnesscenter.csproj.CoreCompileInputs.cache
+C:\Program Files (x86)\PB Programme\Projekte\C# Projekte\FitnesscenterConsoleApp\Tag2 Fitnesscenter\obj\Debug\net8.0\Tag2 Fitnesscenter.sourcelink.json
+C:\Program Files (x86)\PB Programme\Projekte\C# Projekte\FitnesscenterConsoleApp\Tag2 Fitnesscenter\obj\Debug\net8.0\Tag2 Fitnesscenter.dll
+C:\Program Files (x86)\PB Programme\Projekte\C# Projekte\FitnesscenterConsoleApp\Tag2 Fitnesscenter\obj\Debug\net8.0\refint\Tag2 Fitnesscenter.dll
+C:\Program Files (x86)\PB Programme\Projekte\C# Projekte\FitnesscenterConsoleApp\Tag2 Fitnesscenter\obj\Debug\net8.0\Tag2 Fitnesscenter.pdb
+C:\Program Files (x86)\PB Programme\Projekte\C# Projekte\FitnesscenterConsoleApp\Tag2 Fitnesscenter\obj\Debug\net8.0\Tag2 Fitnesscenter.genruntimeconfig.cache
+C:\Program Files (x86)\PB Programme\Projekte\C# Projekte\FitnesscenterConsoleApp\Tag2 Fitnesscenter\obj\Debug\net8.0\ref\Tag2 Fitnesscenter.dll
