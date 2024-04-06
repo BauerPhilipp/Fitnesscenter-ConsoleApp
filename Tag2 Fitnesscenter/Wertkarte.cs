@@ -10,13 +10,17 @@ namespace Tag2_Fitnesscenter
     {
         private static int _wertkartenGesamtAusgegeben = 0;
 
-        const int Mindestalter = 14;
+        static int Mindestalter = 14;
 
         private int _wertkarteNummer;
         private string _vorname;
         private string _nachname;
         private decimal _guthaben;
 		
+		public int GetMindestalter()
+		{
+			return Mindestalter;
+		}
 
         public int WertkarteNummer
 		{
@@ -63,6 +67,11 @@ namespace Tag2_Fitnesscenter
                 this._nachname = nachname;
                 this._guthaben = guthaben;
                 WertkarteNummer = ++WertkartenGesamtAusgegeben;
+				Console.WriteLine("Neue Wertkarte wurde erfolgreich erstellt.");
+				Console.WriteLine($"Deine Daten lauten:");
+				Console.WriteLine($"Kartennummer: {WertkarteNummer:00000}");
+				Console.WriteLine($"Name: {Vorname} {Nachname}");
+				Console.WriteLine($"Startguthaben: {guthaben:000} €");
 			}
 			else
 			{

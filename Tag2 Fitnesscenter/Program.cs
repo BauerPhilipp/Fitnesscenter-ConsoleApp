@@ -3,29 +3,23 @@
     internal class Program
     {
 
-        private static List<Wertkarte> wertkarten = new List<Wertkarte>();
+        private static List<Wertkarte> wertkartenListe = new List<Wertkarte>();
 
         static void Main(string[] args)
         {
+            string weiter = "";
+            do
+            {
+                Console.WriteLine("Hallo!");
+                Console.WriteLine("Um ein neues Konto anzulegen drücke \"N\" (Mindestalter ist 14 Jahre)");
+                Console.WriteLine("Für die Verwaltung eines bestehenden Kontos drücke V");
+                EingabeverarbeitungKontoNeuOderVerwalten(Console.ReadLine());
 
-            Console.WriteLine("Hallo");
-            Console.WriteLine("Um ein neues Konto anzulegen drücke N");
-            Console.WriteLine("Für die Verwaltung eines bestehenden Kontos drücke V");
-            EingabeverarbeitungKontoNeuOderVerwalten(Console.ReadLine());
-            
+                Console.WriteLine("Zum Beenden X eingeben.\nWeiter mit belibiter Taste.");  
+                weiter = Console.ReadLine();
+            }while (weiter != "x" && weiter != "X");
 
-
-
-
-            //DateOnly geburtstag = new DateOnly(2010, 04, 05);
-
-            //Wertkarte w1 = new Wertkarte("Philipp", "Bauer", 300, geburtstag);
-            //Wertkarte w2 = new Wertkarte("Renate", "Bauer", 200,geburtstag);
-            //Wertkarte w3 = new Wertkarte("Nadine", "Bauer", 100, geburtstag);
-
-            //Console.WriteLine($"w1 Vorname: {w1.Vorname} " +
-            //    $"w2 Vorname: {w2.Vorname} " +
-            //    $"w3 Vorname: {w3.Vorname}");
+           
         }
 
         public static void EingabeverarbeitungKontoNeuOderVerwalten(string eingabeString)
@@ -33,14 +27,18 @@
             switch (eingabeString.ToUpper())
             {
                 case "N":
+                    Console.ForegroundColor = ConsoleColor.Cyan;
                     Console.WriteLine("Zur Einrichtung einer neuen Wertkarte benötigen wir vorab einige Angaben");
                     NeueWertkarteEinrichten();
                     break;
                 case "V":
+                    Console.ForegroundColor = ConsoleColor.Magenta;
+                    Console.WriteLine("Bitte Kartennummer eingeben:");
                     break;
                 default:
+                    Console.ForegroundColor = ConsoleColor.Red;
                     Console.WriteLine("Ungültige Eingabe!");
-                    Console.WriteLine("Gültige Eingaben sind V und N");
+                    Console.WriteLine("Gültige Eingaben sind N und V");
                     EingabeverarbeitungKontoNeuOderVerwalten(Console.ReadLine());
                     break;
             }
@@ -52,6 +50,11 @@
             int geburtsJahr = 0;
             int geburtsMonat = 0;
             int geburtsTag = 0;
+
+            decimal startGuthaben = 0m;
+
+            string vorname = "";
+            string nachname = "";
 
             // Geburtsjahr einlesen
             do
@@ -73,8 +76,6 @@
             do
             {
                 Console.WriteLine("Geburtstag z.B. 28");
-
-
             } while (!(int.TryParse(Console.ReadLine(), out geburtsTag) && 
             geburtsTag > 0 &&
             geburtsTag <= DateTime.DaysInMonth(geburtsDatum.Year, geburtsDatum.Month)));
@@ -87,8 +88,19 @@
                 Console.WriteLine("   Du hast heute Geburtstag!");
                 Console.WriteLine("      !!HAPPY BIRTHDAY!!");
             }
-        }
-        
 
+            Console.ResetColor();
+            Console.WriteLine("Dein Vorname: ");
+            vorname = Console.ReadLine();
+            Console.WriteLine("Dein Nachname: ");
+            nachname = Console.ReadLine();
+            do
+            {
+                Console.WriteLine("Und zum Schluss noch das gewünsche Guthaben welches du aufladen möchtest (max 300€)");
+                decimal.TryParse(Console.ReadLine(), out startGuthaben);
+            } while (startGuthaben == 0 || startGuthaben > 300m);
+
+            wertkartenListe.Add(new Wertkarte(vorname, nachname, startGuthaben, geburtsDatum));
+        }   
     }
 }
