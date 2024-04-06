@@ -1,0 +1,14 @@
+C:\Users\pb\source\repos\Hausübungen\Tag2 Fitnesscenter\bin\Debug\net8.0\Tag2 Fitnesscenter.exe
+C:\Users\pb\source\repos\Hausübungen\Tag2 Fitnesscenter\bin\Debug\net8.0\Tag2 Fitnesscenter.deps.json
+C:\Users\pb\source\repos\Hausübungen\Tag2 Fitnesscenter\bin\Debug\net8.0\Tag2 Fitnesscenter.runtimeconfig.json
+C:\Users\pb\source\repos\Hausübungen\Tag2 Fitnesscenter\bin\Debug\net8.0\Tag2 Fitnesscenter.dll
+C:\Users\pb\source\repos\Hausübungen\Tag2 Fitnesscenter\bin\Debug\net8.0\Tag2 Fitnesscenter.pdb
+C:\Users\pb\source\repos\Hausübungen\Tag2 Fitnesscenter\obj\Debug\net8.0\Tag2 Fitnesscenter.GeneratedMSBuildEditorConfig.editorconfig
+C:\Users\pb\source\repos\Hausübungen\Tag2 Fitnesscenter\obj\Debug\net8.0\Tag2 Fitnesscenter.AssemblyInfoInputs.cache
+C:\Users\pb\source\repos\Hausübungen\Tag2 Fitnesscenter\obj\Debug\net8.0\Tag2 Fitnesscenter.AssemblyInfo.cs
+C:\Users\pb\source\repos\Hausübungen\Tag2 Fitnesscenter\obj\Debug\net8.0\Tag2 Fitnesscenter.csproj.CoreCompileInputs.cache
+C:\Users\pb\source\repos\Hausübungen\Tag2 Fitnesscenter\obj\Debug\net8.0\Tag2 Fitnesscenter.dll
+C:\Users\pb\source\repos\Hausübungen\Tag2 Fitnesscenter\obj\Debug\net8.0\refint\Tag2 Fitnesscenter.dll
+C:\Users\pb\source\repos\Hausübungen\Tag2 Fitnesscenter\obj\Debug\net8.0\Tag2 Fitnesscenter.pdb
+C:\Users\pb\source\repos\Hausübungen\Tag2 Fitnesscenter\obj\Debug\net8.0\Tag2 Fitnesscenter.genruntimeconfig.cache
+C:\Users\pb\source\repos\Hausübungen\Tag2 Fitnesscenter\obj\Debug\net8.0\ref\Tag2 Fitnesscenter.dll
