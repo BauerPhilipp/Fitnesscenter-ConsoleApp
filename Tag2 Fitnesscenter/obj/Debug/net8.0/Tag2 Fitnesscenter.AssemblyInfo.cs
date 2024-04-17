@@ -14,7 +14,7 @@ using System.Reflection;
 [assembly: System.Reflection.AssemblyCompanyAttribute("Tag2 Fitnesscenter")]
 [assembly: System.Reflection.AssemblyConfigurationAttribute("Debug")]
 [assembly: System.Reflection.AssemblyFileVersionAttribute("1.0.0.0")]
-[assembly: System.Reflection.AssemblyInformationalVersionAttribute("1.0.0+fb58dadb94ade40a0f8468747f9c071b073d7057")]
+[assembly: System.Reflection.AssemblyInformationalVersionAttribute("1.0.0+9e87e4b6964cec6335d9556366a18ebaf94a6b86")]
 [assembly: System.Reflection.AssemblyProductAttribute("Tag2 Fitnesscenter")]
 [assembly: System.Reflection.AssemblyTitleAttribute("Tag2 Fitnesscenter")]
 [assembly: System.Reflection.AssemblyVersionAttribute("1.0.0.0")]

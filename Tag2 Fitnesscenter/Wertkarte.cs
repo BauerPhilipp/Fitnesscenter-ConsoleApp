@@ -55,13 +55,20 @@ namespace Tag2_Fitnesscenter
 			set { _guthaben = value; }
 		}
 
+		private int _alter;
+
+		public int Alter
+		{
+			get { return _alter; }
+			set { _alter = value; }
+		}
 
 
 
 		public Wertkarte(string vorname, string nachname, decimal guthaben, DateOnly geburtstag)
 		{
-			int alter = BerechneAlter(geburtstag);
-			if(alter >= Mindestalter)
+			Alter = BerechneAlter(geburtstag);
+			if(Alter >= Mindestalter)
 			{
                 this._vorname = vorname;
                 this._nachname = nachname;
@@ -69,13 +76,13 @@ namespace Tag2_Fitnesscenter
                 WertkarteNummer = ++WertkartenGesamtAusgegeben;
 				Console.WriteLine("Neue Wertkarte wurde erfolgreich erstellt.");
 				Console.WriteLine($"Deine Daten lauten:");
-				Console.WriteLine($"Kartennummer: {WertkarteNummer:00000}");
+				Console.WriteLine($"Kartennummer: {WertkarteNummer:00}");
 				Console.WriteLine($"Name: {Vorname} {Nachname}");
-				Console.WriteLine($"Startguthaben: {guthaben:000} €");
+				Console.WriteLine($"Startguthaben: {guthaben:000} euro");
 			}
 			else
 			{
-				int jahreBisAltGenug = Mindestalter - alter;
+				int jahreBisAltGenug = Mindestalter - Alter;
                 Console.WriteLine($"Du bist leider noch nicht alt genug.\n" +
 					$"Mindestalter {Mindestalter} Jahre! Versuche es wieder in {jahreBisAltGenug} Jahren.");
             }
